@@ -1,0 +1,127 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1200px) {
+    .blog-i-content iframe{
+        height: 170px;
+    }
+}
+
+ 
+@media only screen and (max-width: 992px) {
+    .photoFrame{
+        border: 0;
+    }
+    .photoFrame .img-content{
+        transform: none;
+    }
+    .info ul li{
+        font-size: 15px;
+    }
+    .service-item {
+        width: 50%;
+    }
+
+    .services .container, .portfolio .container, .goals .container, .feedBack .container, .blog .container, .contact-us .container{
+        width: 100%;
+    }
+    .portfolio-item{
+        width: 50%;
+    }
+    
+    .review{
+        width: 90%;
+    }
+
+    .blog-i-content iframe{
+        height: 120px;
+    }
+    .contact-us form{
+        width: 95%;
+    }
+    .hello{
+        width: 100%;
+    }
+    
+    
+}
+
+ 
+@media only screen and (max-width: 768px) {
+    .half-row{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .hello{
+        width: 450px;
+        margin: auto;
+    }
+    .photoFrame{
+        display: unset;
+        
+    }
+
+    .photoFrame img{
+       width: 100%;
+       
+       
+    }
+    .service-item,.portfolio-item,.goal-item{
+     width: 100%;   
+    }
+
+    .goal-item{
+        margin-bottom: 25px;
+    }
+
+    .services .container, .portfolio .container, .goals .container, .feedBack .container, .blog .container, .contact-us .container{
+        width: 70%;
+    }
+
+    .reviewPhoto {
+        width: 25%;
+        position: relative;
+        z-index: 1;
+        margin: 30px auto;
+         
+        
+    }
+
+    .review .reviewPhoto, .review .reviewInfo{
+      
+        float: none;
+    }
+
+    .review{
+        padding: 20px;
+        width: 80%;
+    }
+    .reviewInfo{
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    .blog-item{
+        width: 100%;
+    }
+
+    .blog-i-content iframe{
+        height: 200px;
+    }
+    .contact-us form .half-row:nth-of-type(1){
+        padding-right: 0;
+    }
+    .overlay img{
+        width: 30px;
+    }
+
+}
+ 
+@media only screen and (max-width: 600px) {
+    .portfolio ul li{
+        margin: 0px 5px 0px;
+    } 
+
+    .services .container, .portfolio .container, .goals .container, .feedBack .container, .blog .container, .contact-us .container{
+        width: 90%;
+    }
+}
+
